@@ -44,6 +44,29 @@ html, body{
 #content h1{
     font-size: 130px;
     font-weight: 500;
-    line-height: 130px;
+    line-height: 120px;
     margin-top: 50px;
+}
+#case{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+}
+#case h4{
+    font-size: 25px;
+}
+#right{
+    display: flex;
+    align-items: center;
+    
+}
+#right h5{
+    font-size: 25px;
+}
+#line{
+    height: 3px;
+    width: 120px;
+    background-color: rgb(120, 131, 131);
+    margin-right:25px;
 }
