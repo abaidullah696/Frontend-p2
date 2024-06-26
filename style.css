@@ -67,6 +67,46 @@ html, body{
 #line{
     height: 3px;
     width: 120px;
-    background-color: rgb(120, 131, 131);
+    background-color: rgb(157, 173, 173);
     margin-right:25px;
+}
+#projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 65px;
+    gap: 60px;
+}
+.elem{
+    width: 50%;
+}
+.elem-img{
+    background-color: rgb(190, 200, 203);
+    height: 700px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center;
+}
+#img1{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNwF5ZevpzR4_ePBq9R924R2V5t38vziHHww&s");
+
+}
+#img2{
+    background-image: url("https://media.istockphoto.com/id/1332096873/vector/audio-player-ui-video-media-ux-interface-template-app-icons-garish-vector-web-design.jpg?s=612x612&w=0&k=20&c=5vt6PeTu2y1hTfK_c9rEdB6xlu3l0s-Twu2OKnGRsXE=") ;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.bottom i{
+    padding: 15px 30px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.bottom i:hover{
+    background-color: black;
+    color: aliceblue;
 }
